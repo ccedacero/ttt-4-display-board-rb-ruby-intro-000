@@ -193,5 +193,4 @@ describe "#display_board in 'lib/display_board.rb" do
       # example's situation.
 
       # *** Comment the line below by adding a # at the line start ***
-      expect(true).to be(true)
-    end
+      #expect(true).to be(true)
