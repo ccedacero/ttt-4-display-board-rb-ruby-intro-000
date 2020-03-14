@@ -173,12 +173,10 @@ describe "#display_board in 'lib/display_board.rb" do
       # expect(rows[4]).to eq("   |   |   ")
 
       # *** Comment the line below by adding a # at the line start ***
-      expect(true).to be(true)
-    end
+      # expect(true).to be(true)
+   # end
 
     it 'prints an entire board full of Os' do
-      # Can you copy the syntax of the tests above to write a test for a board
-      # entirely filled with Os?
        board = ["O", "O", "O","O", "O", "O", "O", "O", "O"]
 
       output = capture_puts{ display_board(board) }
